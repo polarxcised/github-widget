@@ -18,7 +18,7 @@ To use this widget **immediately** on your website, insert a `<div>` with the cl
      data-typewriter-speed="150">
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/YourGitHubUsername/github-widget@latest/widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/anshkabra2012/github-widget@latest/widget.js"></script>
 ```
 
 > **Note:** Replace `YourGitHubUsername` with your actual GitHub username, and `github-widget` with your repository name. If you use tags or specific versions, swap `@latest` with something like `@v1.0.0`.
