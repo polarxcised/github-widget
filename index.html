@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced GitHub Badge Widget</title>
+</head>
+<body>
+  <!-- Badge with preset gradient, custom border, and typewriter effect enabled -->
+  <div class="mini-gh-badge" 
+       data-user="octocat" 
+       data-gradient="blue-purple" 
+       data-border="3px solid #fff" 
+       data-typewriter="true" 
+       data-typewriter-speed="150">
+  </div>
+  
+  <!-- Badge with custom gradient and no typewriter effect (static text) -->
+  <div class="mini-gh-badge" 
+       data-user="torvalds" 
+       data-gradient="linear-gradient(135deg, #123456, #654321)" 
+       data-border="3px solid #333">
+  </div>
+  
+  <!-- Badge with no gradient (plain background), default border, and static name -->
+  <div class="mini-gh-badge" data-user="gaearon"></div>
+  
+  <script src="./widget.js"></script>
+</body>
+</html>

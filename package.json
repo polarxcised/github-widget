@@ -1,0 +1,15 @@
+{
+  "name": "mini-github-badge",
+  "version": "1.0.0",
+  "description": "A minimal GitHub badge for embedding in websites",
+  "main": "widget.js",
+  "scripts": {
+    "start": "npx http-server ."
+  },
+  "keywords": [],
+  "author": "Ansh Kabra",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
