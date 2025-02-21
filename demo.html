@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Widget Demo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .badge-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+    .badge-item {
+      background: #fff;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .badge-item h2 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+<h1>
+    GitHub Widget Demo - Username: AnshKabra2012 
+    <a href="seal-check.svg">
+        <img src="seal-check-fill.svg" alt="Seal Check" style="width: 40px; vertical-align: middle; margin-left: 10px;">
+    </a>
+</h1>
+  <div class="badge-grid">
+    <!-- Plain badge -->
+    <div class="badge-item">
+      <h2>Plain</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012"></div>
+    </div>
+    <!-- Blue-Purple preset gradient -->
+    <div class="badge-item">
+      <h2>Blue-Purple Gradient</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-gradient="blue-purple"></div>
+    </div>
+    <!-- Red-Orange preset gradient -->
+    <div class="badge-item">
+      <h2>Red-Orange Gradient</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-gradient="red-orange"></div>
+    </div>
+    <!-- Green preset gradient -->
+    <div class="badge-item">
+      <h2>Green Gradient</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-gradient="green"></div>
+    </div>
+    <!-- Sunset preset gradient -->
+    <div class="badge-item">
+      <h2>Sunset Gradient</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-gradient="sunset"></div>
+    </div>
+    <!-- Ocean preset gradient -->
+    <div class="badge-item">
+      <h2>Ocean Gradient</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-gradient="ocean"></div>
+    </div>
+    <!-- Custom gradient and border -->
+    <div class="badge-item">
+      <h2>Custom Gradient & Border</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-gradient="linear-gradient(135deg, #123456, #654321)" data-border="3px dashed #000"></div>
+    </div>
+    <!-- Typewriter effect -->
+    <div class="badge-item">
+      <h2>Typewriter Effect</h2>
+      <div class="mini-gh-badge" data-user="anshkabra2012" data-typewriter="true" data-typewriter-speed="100"></div>
+    </div>
+  </div>
+<footer>
+    Check out the github: 
+    <a href="https://github.com/Anshkabra2012/github-widget/">
+        <img src="github-logo.svg" alt="GitHub Logo" style="width: 20px; vertical-align: middle;">
+        Repository    </a>
+</footer>
+
+  <!-- Include the widget script -->
+  <script src="widget.js"></script>
+
+</body>
+</html>
