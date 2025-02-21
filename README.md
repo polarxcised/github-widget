@@ -1,4 +1,3 @@
-```markdown
 # GitHub Widget
 
 A **production-ready** GitHub badge widget that can be easily embedded on any website. It fetches a GitHub user's profile data (avatar, display name, etc.) from the public GitHub API and displays it in a **stylish, customizable** badge.
