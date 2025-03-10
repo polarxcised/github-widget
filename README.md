@@ -121,7 +121,7 @@ Below is a **complete** HTML example demonstrating multiple badges with differen
   <div class="mini-gh-badge" data-user="gaearon"></div>
   
   <!-- Include the widget script via jsDelivr (hosted on GitHub) -->
-  <script src="https://cdn.jsdelivr.net/gh/YourGitHubUsername/github-widget@latest/widget.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/anshkabra2012/github-widget@latest/widget.js"></script>
 </body>
 </html>
 ```
