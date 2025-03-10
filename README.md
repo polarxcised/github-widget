@@ -21,7 +21,7 @@ To use this widget **immediately** on your website, insert a `<div>` with the cl
 <script src="https://cdn.jsdelivr.net/gh/anshkabra2012/github-widget@latest/widget.js"></script>
 ```
 
-> **Note:** Replace `YourGitHubUsername` with your actual GitHub usernane
+> **Note:** Replace `octocat` with your actual GitHub usernane
 ---
 
 ## How It Looks
