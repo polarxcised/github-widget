@@ -80,12 +80,19 @@
       "ocean": "linear-gradient(135deg, #2b5876, #4e4376)"
     };
   
+    // Escape HTML to prevent unwanted markup injection
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
     // Typewriter effect: types out text letter by letter and then loops
     function typeWriterEffect(element, text, speed) {
       let i = 0;
       function type() {
         if (i <= text.length) {
-          element.innerHTML = text.substring(0, i) + '<span class="cursor">|</span>';
+          element.innerHTML = escapeHtml(text.substring(0, i)) + '<span class="cursor">|</span>';
           i++;
           setTimeout(type, speed);
         } else {
