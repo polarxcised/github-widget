@@ -18,7 +18,7 @@ To use this widget **immediately** on your website, insert a `<div>` with the cl
      data-typewriter-speed="150">
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/anshkabra2012/github-widget@latest/widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/polarxcised/github-widget@latest/widget.js"></script>
 ```
 
 > **Note:** Replace `octocat` with your actual GitHub usernane
@@ -121,7 +121,7 @@ Below is a **complete** HTML example demonstrating multiple badges with differen
   <div class="mini-gh-badge" data-user="gaearon"></div>
   
   <!-- Include the widget script via jsDelivr (hosted on GitHub) -->
-  <script src="https://cdn.jsdelivr.net/gh/anshkabra2012/github-widget@latest/widget.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/polarxcised/github-widget@latest/widget.js"></script>
 </body>
 </html>
 ```
@@ -175,4 +175,4 @@ Contributions are welcome! If you spot a bug or have a feature request, please o
 
 This project is licensed under the [MIT License](LICENSE).  
 Enjoy building with the **GitHub Widget**!
-***</> by Ansh Kabra***
+***</> by polarxcised***
