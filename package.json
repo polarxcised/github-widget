@@ -7,7 +7,7 @@
     "start": "npx http-server ."
   },
   "keywords": [],
-  "author": "Ansh Kabra",
+  "author": "polarxcised",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1"
